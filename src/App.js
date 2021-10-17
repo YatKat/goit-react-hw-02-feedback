@@ -39,7 +39,7 @@ state={
     return (
       <div>
         <Section title="Please leave your feedback : ">
-        <FeedbackOptions options={this.state} onLeaveFeedback={this.onLeaveFeedback}/>
+        <FeedbackOptions options={Object.keys(this.state)} onLeaveFeedback={this.onLeaveFeedback}/>
         </Section>
         {isFeedback ? (
         <Section title="Statistics : ">

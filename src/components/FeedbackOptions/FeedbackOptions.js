@@ -14,7 +14,7 @@ class FeedbackOptions extends React.Component{
 
         return(
             <div>
-                {Object.keys(options).map(option => (
+                {options.map(option => (
                 <button className={option === 'good' ? styles.good : option === 'neutral' ? styles.neutral : styles.bad} 
                 type="button"
                 key={option} 
