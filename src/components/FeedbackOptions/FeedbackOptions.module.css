@@ -1,0 +1,51 @@
+.feedbackButton {
+    background-color: blueviolet;
+    color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-block-start: 10px;
+    text-align: center;
+  }
+
+  .bad{
+    background-color: rgb(233, 32, 32);
+    color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-block-start: 10px;
+    text-align: center;
+  }
+
+  .neutral{
+    background-color: rgb(214, 224, 73);
+    color: rgb(43, 24, 2);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-block-start: 10px;
+    text-align: center;
+  }
+
+  .good{
+    background-color: rgb(28, 80, 45);
+    color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-block-start: 10px;
+    text-align: center;
+  }
